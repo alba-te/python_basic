@@ -27,6 +27,67 @@ CARACTERISTICAS BASICAS DE PYTHON
 #configuracion git sofeware que permite gestionar como
 # nuestro proyecto se va modificando: git config --global user.name alba
 #git config --global user.email albatallon01@gmail.com
+# cuando lo subaos a git hub le quitara el salto de linea qu ele ha dado windows y
+#  cuando te lo quietes se quitara el salto de linea
+#si no estas en windows detras ponemos imput
+# git config --global core.editor "code --wait" wait bloqueara el sitema hasta
+#  que cierres la pestña y el sistema volvera a la normalidad
+
+
+
+
+configurar git:
+FASE U:
+
+ ~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git config --global user.email albatallon01@gmail.com
+
+~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git config core autocrlf true
+fatal: not in a git directory
+
+ ~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git config --global  core.editor "code --wait"
+
+
+~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git config --global core.autocrlf true
+
+~/Desktop/CURSO/PYTHON/0_1_PYTHON
+~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git config --global -e te abre el fichero
+
+~/Desktop/CURSO/PYTHON/0_1_PYTHON
+$ git init
+~/Desktop/CURSO/PYTHON/0_1_PYTHON (master)
+$ git status
+
+
+creamos otro ficher luego otro qu eponga :
+.gitignore:
+.* : ignorara su propio fichero
+.*env
+explicación.txt y le damos a guardar
+gitignore.io (pagina):
+ponemos windos en el
+explicación.txt 
+
+terminal :$ git add . (todos)   FASE "A"
+FASE A:
+
+$ git rm --cached 04_strings.py
+rm '04_strings.py'  (Si hacemos esto el fichero marcado vuelvea la fase U )
+
+~/Desktop/CURSO/PYTHON/0_1_PYTHON (master)
+$ git add . (todos en su fase A)
+
+
+0* y todo lo que siga
+
+
+
+
+
 
 
 
