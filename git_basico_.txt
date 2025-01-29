@@ -36,6 +36,7 @@ git branch -M main (solo una vez)
 git push -u origin main
 git add .
 
+$ git push -u origin main
 
 
 
