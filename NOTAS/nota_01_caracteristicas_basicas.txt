@@ -69,7 +69,7 @@ creamos otro ficher luego otro qu eponga :
 .*env
 explicación.txt y le damos a guardar
 gitignore.io (pagina):
-ponemos windos en el
+ponemos visual studio windos en el
 explicación.txt 
 
 terminal :$ git add . (todos)   FASE "A"
@@ -83,6 +83,20 @@ $ git add . (todos en su fase A)
 
 
 0* y todo lo que siga
+
+
+$ git commit -m  "cambios en git basico"
+[main cdf6345] cambios en git basico
+ 1 file changed, 1 insertion(+) para que desaparezca en la m 
+
+
+
+
+
+
+
+
+Holacaracola.1234
 
 
 

@@ -1,42 +1,51 @@
-configuracion de GIT 
-nombre de usuario
-git confit-global --global user.name "nombre"
-direccion email
-git config --global user.email "email"gmail.com"
 
-configurar el editor del codigo VSCgit config --global care.editor..
 
-configurar el editor de codigo VSC
+Configuración de GIT (sólo se hace una vez)
+
+Nombre del usuario
+git config --global user.name "nombre usuario"
+
+Dirección de email
+git config --global user.email tu.email@lo.que.sea
+
+Configurar el editor de código (VSC)
 git config --global core.editor "code --wait"
-correcion el salto de linea 
-git config --global core.autocrlf input
-para ver la configuaracon actual 
-git config --global -a
 
+Corrección del salto de línea (true -> windows input -> mac/linux)
+git config --global core.autocrlf true
 
+Para ver la configuración actual
+git config --global -e
 
+====================================================
 
+Iniciamos el repositorio (solo al empezar el proyecto)
+git init
 
-
-
-
-iniciamos el repositorio (solo al empezar )
-
-
-para ver el estado del repositorio
+Para ver el estado del repositorio
 git status
 
-para pasar a la fase stage 
-gt add . 
-para pasar a commit (ficheros validados) para que pase a comit tiene que estar en la otra fase 
+Para pasar a la fase Stage
 git add .
 
-git remote add origin https://github.com/alba-te/python_basic.git(solo una vez)
-git branch -M main (solo una vez)
+Para volver a la fase inicial
+git rm --cached nom_de_fichero
+
+Para pasar a commit (ficheros validados)
+git commit -m "mensaje"
+
+Cuando hay cambios en un fichero
+git commit -a
+
+Instrucciones para GitHub
+git remote add origin https://github.com/mi_cuenta/nombre_del_repo.git
+git branch -M main
 git push -u origin main
-git add .
 
-$ git push -u origin main
+
+las variables tienen tipo (numeros)
+    --numeros - 
+ 1 file changed, 1 insertion(+) para que desaparezca en la m 
 
 
 

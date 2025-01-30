@@ -20,6 +20,15 @@ CARACTERISTICAS BASICAS DE PYTHON
             #nombrar a nuestras variables con palabras descriptivas
             #podemos usar más de una palabra separadas por un guion bajo (directiva PEP-8)
 
+
+# #en python por defecto no existen las constantes
+# las variables tiene tipos:
+# -- numeros : enteros (int), decimales(float),complejos
+# --texto : strings 
+# --booleanos : true / false
+# en python , por defecto NO existen la constantes PI = 
+
+
 #control ñ abrir terminal en visual
 #como saber si el git está instalado 
 #instalar git
@@ -32,6 +41,7 @@ CARACTERISTICAS BASICAS DE PYTHON
 #si no estas en windows detras ponemos imput
 # git config --global core.editor "code --wait" wait bloqueara el sitema hasta
 #  que cierres la pestña y el sistema volvera a la normalidad
+
 
 
 
