@@ -59,3 +59,8 @@ print( informacion)
 #print( nombre + " " + apellido + " " + edad)
 #informacion = f"{nombre} {apellido} {edad}"
 
+
+# METDODS PARA NUMEROSredondear un numero a la izquierda o a la derecha
+redondear_izquierda = round(3.14159265359,2)
+#
+

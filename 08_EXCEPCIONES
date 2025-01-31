@@ -1,0 +1,36 @@
+"""
+EXCEPCIONES
+Son errores que se producen durante la ejecucion del programa y lo nterrumpen
+"""
+
+
+import os
+os.system("")
+#try / except
+#si hay try debe haber un except
+num = float(input("ingrese un numero... : "))
+#un error que de ninguna manera puede ser convertido en flotante 
+
+###########################################################################
+try:
+    num = float(input("ingrese un numero... : "))
+    # print(1/0)
+    # print("despues de la division por cero")
+except valueError: #error de conversion  de tipos
+    print("has de introducir un numero en cifras")
+except ZeroDivisionError: #error por division por zero
+    print("no se puede deividir por cero")
+except:
+    print(" ha ocurrido un error")
+#################################################################
+try:
+    #intenta hacer algo
+    pass
+except
+    #si no se puede hacer algo
+    pass
+else#si no falla ejecuta esto
+    pass
+finally#siempre se ejecuta
+    pass
+print("aqui habra más codigo")
